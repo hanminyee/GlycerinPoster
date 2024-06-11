@@ -10,12 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f3f4f6;
+    background: url('fixedPoster.jpg') no-repeat center center;
+    background-size: contain;
+    color: white;
 }
 
 .container {
     text-align: center;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -23,22 +25,13 @@ body {
     width: 100%;
 }
 
-.profile img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
 .profile h1 {
     font-size: 24px;
     margin-bottom: 5px;
-    color: #333;
 }
 
 .profile p {
     font-size: 16px;
-    color: #666;
     margin-bottom: 20px;
 }
 
